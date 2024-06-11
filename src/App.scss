@@ -1,0 +1,196 @@
+.nav {
+  width: 100%;
+  height: 50px;
+  background: #2b2b2b;
+}
+
+.icon {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.icon a:first-of-type {
+  background-image: url("./img/in.png");
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-size: 50px;
+  margin: 0px 6px;
+  transition: background-image 0.25s
+}
+.icon a:nth-of-type(2) {
+  background-image: url("./img/ghb.png");
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-size: 50px;
+  margin: 0px 6px;
+  transition: background-image 0.25s
+}
+.icon a:nth-of-type(3) {
+  background-image: url("./img/cv.png");
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-size: 50px;
+  margin: 0px 6px;
+  transition: background-image 0.25s
+}
+
+.icon a:first-of-type:hover {
+  background-image: url("./img/in2.png");
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-size: 50px;
+  margin: 0px 6px;
+}
+.icon a:nth-of-type(2):hover {
+  background-image: url("./img/gh2.png");
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-size: 50px;
+  margin: 0px 6px;
+}
+.icon a:nth-of-type(3):hover {
+  background-image: url("./img/cv2.png");
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-size: 50px;
+  margin: 0px 6px;
+}
+
+.banner {
+  // border: 1px solid whitesmoke;
+  min-height: 400px;
+  margin: 0px 16px;
+  text-align: center;
+  align-content: center;
+}
+.yain {
+  padding: 12px;
+  min-width: 320px;
+  background: whitesmoke;
+  color: #2b2b2b;
+}
+
+.cardSection {
+  width: 100%;
+  padding: 16px;
+  display: grid;
+  column-gap: 16px;
+  row-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.dev {
+  text-align: center;
+  align-content: center;
+  border: 3px solid whitesmoke;
+  padding: 12px;
+  color: whitesmoke;
+}
+
+button {
+  appearance: auto;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  margin: 0em;
+  padding-block: 1px;
+  padding-inline: 3px;
+  border-width: 2px;
+  border-style: outset;
+  border-image: initial;
+}
+
+.button {
+  margin: 5px;
+  border-radius: 0;
+  background-color: #f3f3f2;
+  color: #2b2b2b;
+  padding: 5px 1rem;
+  width: fit-content;
+  outline: solid 1px #f3f3f2;
+  font-family: inherit;
+  border: none;
+  text-transform: uppercase;
+  line-height: inherit;
+  font-size: small;
+  position: relative;
+  transition: color 0.5s cubic-bezier(0.95, -0.01, 0.1, 1.01);
+}
+
+
+@font-face {
+  font-family: pixel;
+  src: url("/FiveFontsatFreddys-Regular.ttf") format("truetype");
+}
+
+.pixel {
+  font-family: pixel;
+  font-size: medium;
+  margin-top: 10px;
+  align-content: center;
+}
+@font-face {
+  font-family: silkamono;
+  src: url("/silkamono-regular-webfont.ttf") format("truetype");
+}
+
+.silka {
+  font-family: silkamono;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.yo {
+  height: 200px;
+  -webkit-filter: drop-shadow(0px 0px 3px #a8a8a8);
+  filter: drop-shadow(0px 0px 3px #a8a8a8);
+}
+.silka2 {
+  font-family: silkamono;
+  text-transform: uppercase;
+  font-size: 10px;
+  text-align: center;
+}
+.pixel2 {
+  font-family: pixel;
+  font-size: 20px;
+  margin-top: 10px;
+  align-content: center;
+}
+@media (width > 600px) {
+  .yain {
+    padding: 12px;
+    min-width: 450px;
+    background: whitesmoke;
+    color: #2b2b2b;
+  }
+  .silka2 {
+    font-family: silkamono;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+  }
+  .pixel2 {
+    font-family: pixel;
+    margin-top: 10px;
+    align-content: center;
+    font-size: 40px;
+  }
+  .yo {
+    height: 250px;
+  }
+}
