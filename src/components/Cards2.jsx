@@ -4,6 +4,13 @@ import { Link } from "react-router-dom";
 export default function Cards({ title, txt, img, link, bg, none }) {
   const [color, setColor] = useState(bg || "#22A381");
 
+  const handleMasInfoClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+
   return (
     <div className="dev d-flex" style={{ backgroundColor: bg }}>
       <img
@@ -26,7 +33,7 @@ export default function Cards({ title, txt, img, link, bg, none }) {
           {txt}
         </p>
         {!none && (
-          <Link to={link}>
+          <Link to={link} onClick={handleMasInfoClick}>
             <button title="Mas info" aria-label="Mas info" className="button">
               <span className=""> Más info </span>
             </button>
