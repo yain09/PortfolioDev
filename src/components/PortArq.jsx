@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Cards2 from "./Cards2";
 import { Col } from "react-bootstrap";
-import bg from "../img/bg/arq_01.jpg";
+import bg from "../img/bg/arq_01.webp";
+import bg2 from "../img/bg/arq_02.webp";
 import run from "../img/aniRun.gif";
 import study from "../img/aniStudy.gif";
-import bg2 from "../img/bg/arq_02.png";
 import work from "../img/aniWork.gif";
 
 function PortArq() {

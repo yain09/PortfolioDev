@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Cards2 from "./Cards2";
 import { Col } from "react-bootstrap";
-import bg from "../img/bg/bt_01.jpg";
+import bg from "../img/bg/bt_01.webp";
+import bg2 from "../img/bg/bt_02.webp";
 import run from "../img/aniRun.gif";
 import work from "../img/aniWork.gif";
-import bg2 from "../img/bg/bt_02.png";
+
 import study from "../img/aniStudy.gif";
 
 function BT() {

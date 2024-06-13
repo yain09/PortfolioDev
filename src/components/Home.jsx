@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Cards2 from "./Cards2";
 import { Col } from "react-bootstrap";
-import bg from "../img/bg/01.jpg";
+import bg from "../img/bg/01.webp";
 import yo from "../img/yain_pixel.png";
 import study from "../img/aniStudy.gif";
 import run from "../img/aniRun.gif";
