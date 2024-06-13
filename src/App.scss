@@ -17,7 +17,7 @@
   width: 50px;
   background-size: 50px;
   margin: 0px 6px;
-  transition: background-image 0.25s
+  transition: background-image 0.25s;
 }
 .icon a:nth-of-type(2) {
   background-image: url("./img/ghb.png");
@@ -26,7 +26,7 @@
   width: 50px;
   background-size: 50px;
   margin: 0px 6px;
-  transition: background-image 0.25s
+  transition: background-image 0.25s;
 }
 .icon a:nth-of-type(3) {
   background-image: url("./img/cv.png");
@@ -35,7 +35,7 @@
   width: 50px;
   background-size: 50px;
   margin: 0px 6px;
-  transition: background-image 0.25s
+  transition: background-image 0.25s;
 }
 
 .icon a:first-of-type:hover {
@@ -62,13 +62,49 @@
   background-size: 50px;
   margin: 0px 6px;
 }
-
+.textbg {
+  background: rgba(245, 245, 245, 0.9);
+  color: #2b2b2b;
+  padding: 32px;
+  min-height: 300px;
+  ::selection {
+    background-color: #2b2b2b;
+    color: whitesmoke;
+  }
+}
 .banner {
-  // border: 1px solid whitesmoke;
-  min-height: 400px;
+  min-height: 500px;
+  padding: 0px;
   margin: 0px 16px;
   text-align: center;
   align-content: center;
+}
+.maxed {
+  padding: 10px;
+  min-height: 500px;
+}
+.maxed2 {
+ min-height: 250px;
+}
+.ir {
+  border-radius: 0;
+  background-color: #f3f3f200;
+  color: #2b2b2b;
+  padding: 5px 1rem;
+  width: fit-content;
+  outline: solid 2px #2b2b2b;
+  font-family: inherit;
+  border: none;
+  text-transform: uppercase;
+  line-height: inherit;
+  font-size: small;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 250ms;
+}
+.ir:hover {
+  background-color: #2b2b2b;
+  color: whitesmoke;
 }
 .yain {
   padding: 12px;
@@ -94,12 +130,6 @@
 }
 
 button {
-  appearance: auto;
-  text-rendering: auto;
-  letter-spacing: normal;
-  word-spacing: normal;
-  line-height: normal;
-  text-transform: none;
   text-indent: 0px;
   text-shadow: none;
   display: inline-block;
@@ -129,9 +159,7 @@ button {
   line-height: inherit;
   font-size: small;
   position: relative;
-  transition: color 0.5s cubic-bezier(0.95, -0.01, 0.1, 1.01);
 }
-
 
 @font-face {
   font-family: pixel;
