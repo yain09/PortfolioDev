@@ -159,8 +159,13 @@ button {
   line-height: inherit;
   font-size: small;
   position: relative;
+  transition-duration: 250ms;
 }
-
+.button:hover {
+  background-color: #f3f3f200;
+  color: whitesmoke;
+  outline: solid 2px whitesmoke;
+}
 @font-face {
   font-family: pixel;
   src: url("/FiveFontsatFreddys-Regular.ttf") format("truetype");
@@ -194,6 +199,7 @@ button {
   text-align: center;
 }
 .pixel2 {
+  user-select: text; 
   font-family: pixel;
   font-size: 20px;
   margin-top: 10px;
