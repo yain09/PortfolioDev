@@ -66,12 +66,24 @@
   background: rgba(245, 245, 245, 0.9);
   color: #2b2b2b;
   padding: 32px;
-  min-height: 300px;
+  min-height: 350px;
   ::selection {
     background-color: #2b2b2b;
     color: whitesmoke;
   }
-}
+  }
+
+  
+.textbg2 {
+  background: rgba(245, 245, 245, 0.9);
+  color: #2b2b2b;
+  padding: 32px;
+  min-height: 250px;
+  ::selection {
+    background-color: #2b2b2b;
+    color: whitesmoke;
+  }
+  }
 .banner {
   min-height: 500px;
   padding: 0px;

@@ -32,7 +32,7 @@ function SisEI() {
     //
   return (
     <>
-      {windowWidth < 576 && (
+       {windowWidth < 576 && (
         <>
           <article
             className="maxed2 m-0 row align-items-center d-flex"
@@ -45,30 +45,33 @@ function SisEI() {
               backgroundPosition: "right",
             }}
           />
-          <div className="textbg mt-0" style={{ background: "whitesmoke" }}>
-            <h3 className="pixel2" style={{ color: color }}>
-              {title}
-            </h3>
-            <p
-              className="silka2"
-              style={{
-                textWrap: "pretty",
-                textAlign: "justify",
-                fontSize: "12px",
-              }}
-            >
-              {txt}
-              <br />
-              {txt2}
-            </p>
-            <a
-              className="ir"
-              href={linkto}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ir
-            </a>
+          <div className="textbg2 d-flex flex-column" style={{ justifyContent: "space-between" }}>
+              <div>
+                <h3 className="pixel2 mt-0" style={{ color: color }}>
+                  {title}
+                </h3>
+                <p
+                  className="silka2"
+                  style={{
+                    textWrap: "pretty",
+                    textAlign: "justify",
+                    fontSize: "12px",
+                  }}
+                >
+                  {txt}
+                  <br />
+                  {txt2}
+                </p>
+                </div>
+                <a
+                  className="ir"
+                  href={linkto}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{alignSelf:"self-end"}}
+                >
+                  Ver Proyecto
+                </a>
           </div>
         </>
       )}
@@ -95,7 +98,8 @@ function SisEI() {
                 alignItems: "center",
               }}
             >
-              <div className="textbg">
+              <div className="textbg d-flex flex-column" style={{ justifyContent: "space-between" }}>
+              <div>
                 <h3 className="pixel2 mt-0" style={{ color: color }}>
                   {title}
                 </h3>
@@ -111,6 +115,7 @@ function SisEI() {
                   <br />
                   {txt2}
                 </p>
+                </div>
                 <a
                   className="ir"
                   href={linkto}

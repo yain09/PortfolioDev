@@ -27,12 +27,11 @@ function PortArq() {
   const [txt, setTxt] = useState(
     "Este portfolio es una colección de mis proyectos y trabajos destacados en el campo de la arquitectura. A través de esta página, podrás explorar diversos diseños y construcciones en los que he trabajado."
   );
-  const [txt2, setTxt2] =
-    useState();
-    // "Está enfocado a personal trainers o entrenadores de clubes, permitiendo la administración de grupos, brindando información sobre la percepción del entrenamiento por parte de los entrenados."
+  const [txt2, setTxt2] = useState();
+  // "Está enfocado a personal trainers o entrenadores de clubes, permitiendo la administración de grupos, brindando información sobre la percepción del entrenamiento por parte de los entrenados."
   return (
     <>
-      {windowWidth < 576 && (
+       {windowWidth < 576 && (
         <>
           <article
             className="maxed2 m-0 row align-items-center d-flex"
@@ -45,30 +44,33 @@ function PortArq() {
               backgroundPosition: "right",
             }}
           />
-          <div className="textbg mt-0" style={{ background: "whitesmoke" }}>
-            <h3 className="pixel2" style={{ color: color }}>
-              {title}
-            </h3>
-            <p
-              className="silka2"
-              style={{
-                textWrap: "pretty",
-                textAlign: "justify",
-                fontSize: "12px",
-              }}
-            >
-              {txt}
-              <br />
-              {txt2}
-            </p>
-            <a
-              className="ir"
-              href={linkto}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ir
-            </a>
+          <div className="textbg2 d-flex flex-column" style={{ justifyContent: "space-between" }}>
+              <div>
+                <h3 className="pixel2 mt-0" style={{ color: color }}>
+                  {title}
+                </h3>
+                <p
+                  className="silka2"
+                  style={{
+                    textWrap: "pretty",
+                    textAlign: "justify",
+                    fontSize: "12px",
+                  }}
+                >
+                  {txt}
+                  <br />
+                  {txt2}
+                </p>
+                </div>
+                <a
+                  className="ir"
+                  href={linkto}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{alignSelf:"self-end"}}
+                >
+                  Ver Proyecto
+                </a>
           </div>
         </>
       )}
@@ -95,7 +97,8 @@ function PortArq() {
                 alignItems: "center",
               }}
             >
-              <div className="textbg">
+              <div className="textbg d-flex flex-column" style={{ justifyContent: "space-between" }}>
+              <div>
                 <h3 className="pixel2 mt-0" style={{ color: color }}>
                   {title}
                 </h3>
@@ -111,8 +114,13 @@ function PortArq() {
                   <br />
                   {txt2}
                 </p>
-                <a className="ir" href={linkto}  target="_blank"
-                    rel="noopener noreferrer">
+                </div>
+                <a
+                  className="ir"
+                  href={linkto}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Ver Proyecto
                 </a>
               </div>
