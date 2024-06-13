@@ -25,10 +25,12 @@ function PortArq() {
   const [color, setColor] = useState("black");
   const [title, setTitle] = useState("Portfolio ARQ");
   const [txt, setTxt] = useState(
-    "Este portfolio es una colección de mis proyectos y trabajos destacados en el campo de la arquitectura. A través de esta página, podrás explorar diversos diseños y construcciones en los que he trabajado."
+    "Este portfolio es una colección de mis proyectos y trabajos destacados en el campo de la arquitectura."
   );
-  const [txt2, setTxt2] = useState();
-  // "Está enfocado a personal trainers o entrenadores de clubes, permitiendo la administración de grupos, brindando información sobre la percepción del entrenamiento por parte de los entrenados."
+  const [txt2, setTxt2] = useState(
+    "A través de esta página podrás explorar diversos diseños y construcciones en los que he trabajado."
+  );
+  
   return (
     <>
        {windowWidth < 576 && (
@@ -135,7 +137,7 @@ function PortArq() {
       >
         <Cards2
           title="SEI"
-          txt='Pagina web de la asignatura "Sistemas Estructurales I" de la Facultad de Arquitectura de la UNL.'
+          txt='Página web de la asignatura "Sistemas Estructurales I" de la Facultad de Arquitectura de la UNL.'
           img={study}
           link="/PortfolioDev-SEI"
         />
@@ -147,7 +149,7 @@ function PortArq() {
         />
         <Cards2
           title="Portfolio ARQ"
-          txt="Portfolio profesional de Arquitectura donde se condensan mis trabajos desarrollados en los ultimos años"
+          txt="Portfolio profesional de Arquitectura donde se condensan mis trabajos desarrollados en los últimos años"
           img={work}
           link="/PortfolioDev-PortfolioArq"
           none

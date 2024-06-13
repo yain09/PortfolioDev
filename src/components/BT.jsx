@@ -140,7 +140,7 @@ function BT() {
       >
         <Cards2
           title="SEI"
-          txt='Pagina web de la asignatura "Sistemas Estructurales I" de la Facultad de Arquitectura de la UNL.'
+          txt='Página web de la asignatura "Sistemas Estructurales I" de la Facultad de Arquitectura de la UNL.'
           img={study}
           link="/PortfolioDev-SEI"
         />
@@ -154,7 +154,7 @@ function BT() {
         />
         <Cards2
           title="Portfolio ARQ"
-          txt="Portfolio profesional de Arquitectura donde se condensan mis trabajos desarrollados en los ultimos años"
+          txt="Portfolio profesional de Arquitectura donde se condensan mis trabajos desarrollados en los últimos años"
           img={work}
           link="/PortfolioDev-PortfolioArq"
         />

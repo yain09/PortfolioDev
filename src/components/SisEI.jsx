@@ -25,7 +25,7 @@ function SisEI() {
   const [color, setColor] = useState("#FF137E");
   const [title, setTitle] = useState("SEI");
   const [txt, setTxt] = useState(
-    'Pagina web de la asignatura "Sistemas Estructurales I" de la Facultad de Arquitectura, Diseño y Urbanismo de la Universidad Nacional del Litoral.'
+    'Página web de la asignatura "Sistemas Estructurales I" de la Facultad de Arquitectura, Diseño y Urbanismo de la Universidad Nacional del Litoral.'
   );
   const [txt2, setTxt2] =
     useState('Desarrollada con las tecnologías: React Js, Bootstrap 5, GoogleSheet como base de datos y GitHub como versionador.');
@@ -136,7 +136,7 @@ function SisEI() {
       >
         <Cards2
           title="SEI"
-          txt='Pagina web de la asignatura "Sistemas Estructurales I" de la Facultad de Arquitectura de la UNL.'
+          txt='Página web de la asignatura "Sistemas Estructurales I" de la Facultad de Arquitectura de la UNL.'
           img={study}
           link="/PortfolioDev-SEI"
           none
@@ -150,7 +150,7 @@ function SisEI() {
         />
         <Cards2
           title="Portfolio ARQ"
-          txt="Portfolio profesional de Arquitectura donde se condensan mis trabajos desarrollados en los ultimos años"
+          txt="Portfolio profesional de Arquitectura donde se condensan mis trabajos desarrollados en los últimos años"
           img={work}
           link="/PortfolioDev-PortfolioArq"
         />
