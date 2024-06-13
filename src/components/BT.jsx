@@ -28,7 +28,7 @@ function BT() {
   const [color, setColor] = useState("#22A381");
   const [title, setTitle] = useState("BuenTreino");
   const [txt, setTxt] = useState(
-    "Este es un proyecto colaborativo actualmente en proceso. Miaporte estuvo en toda la parte FrontEnd, realizando el diseño, generación y edición de imágenes, maquetado y las funcionalidades requeridas."
+    "Este es un proyecto colaborativo actualmente en proceso. Mi aporte estuvo en toda la parte FrontEnd, realizando el diseño, generación y edición de imágenes, maquetado y las funcionalidades requeridas."
   );
   const [txt2, setTxt2] = useState(
     "Está enfocado a personal trainers o entrenadores de clubes, permitiendo la administración de grupos, brindando información sobre la percepción del entrenamiento por parte de los entrenados."

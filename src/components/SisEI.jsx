@@ -25,11 +25,11 @@ function SisEI() {
   const [color, setColor] = useState("#FF137E");
   const [title, setTitle] = useState("SEI");
   const [txt, setTxt] = useState(
-    'Pagina web de la asignatura "Sistemas Estructurales I" de la Facultad de Arquitectura, Diseño y Urbanismo de la Universidad Nacional del Litoral. Desarrollada con las tecnologías: React Js, Bootstrap 5, GoogleSheet como base de datos y GitHub como versionador.'
+    'Pagina web de la asignatura "Sistemas Estructurales I" de la Facultad de Arquitectura, Diseño y Urbanismo de la Universidad Nacional del Litoral.'
   );
   const [txt2, setTxt2] =
-    useState();
-    //
+    useState('Desarrollada con las tecnologías: React Js, Bootstrap 5, GoogleSheet como base de datos y GitHub como versionador.');
+    
   return (
     <>
        {windowWidth < 576 && (
