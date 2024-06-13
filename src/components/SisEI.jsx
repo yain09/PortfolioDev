@@ -138,7 +138,7 @@ function SisEI() {
           title="SEI"
           txt='Página web de la asignatura "Sistemas Estructurales I" de la Facultad de Arquitectura de la UNL.'
           img={study}
-          link="/PortfolioDev-SEI"
+          link="/PortfolioDev/SEI"
           none
           bg="rgba(245, 245, 245, 0.2)"
         />
@@ -146,13 +146,13 @@ function SisEI() {
           title="BuenTreino"
           txt="Proyecto colaborativo en proceso. Enfocado a personal trainers permitiendo la administración de grupos, brindando información sobre la percepción del entrenamiento."
           img={run}
-          link="/PortfolioDev-BuenTreino"
+          link="/PortfolioDev/BuenTreino"
         />
         <Cards2
           title="Portfolio ARQ"
           txt="Portfolio profesional de Arquitectura donde se condensan mis trabajos desarrollados en los últimos años"
           img={work}
-          link="/PortfolioDev-PortfolioArq"
+          link="/PortfolioDev/PortfolioArq"
         />
       </div>
     </>

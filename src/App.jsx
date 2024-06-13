@@ -22,9 +22,10 @@ function App() {
       
       <Routes>
         <Route path="/PortfolioDev" element={<Main />} />
-        <Route path="/PortfolioDev-SEI" element={<SEI />} />
-        <Route path="/PortfolioDev-BuenTreino" element={<BuenTreino />} />
-        <Route path="/PortfolioDev-PortfolioArq" element={<PortfolioArq />} />
+        <Route path="/PortfolioDev/" element={<Main />} />
+        <Route path="/PortfolioDev/SEI" element={<SEI />} />
+        <Route path="/PortfolioDev/BuenTreino" element={<BuenTreino />} />
+        <Route path="/PortfolioDev/PortfolioArq" element={<PortfolioArq />} />
       </Routes>
     </>
   );
