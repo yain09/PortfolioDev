@@ -112,7 +112,7 @@ function Home() {
                     rel="noopener noreferrer"
                   />
                   <a
-                    href="https://drive.google.com/file/d/1mqqPbyRAKe6YSbgztZ2ZPfK2HAp_rlwU/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1dWMrEIKR7EHvW8ofjG5viO7n9o5Dc4Sq/view?usp=drive_link"
                     target="_blank"
                     rel="noopener noreferrer"
                   />
